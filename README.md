@@ -1,6 +1,6 @@
-## Aplicacion de escritorio para TyT Computacion
+## Aplicación de escritorio para TyT Computación
 
-Aplicacion que permite imprimir comprobantes y remitos de clientes para negocio de computacion realizafo en Visual Basic .NET
+Aplicación que permite imprimir comprobantes y remitos de clientes para negocio de computación realizado en Visual Basic .NET
 
 ## Instrucciones para prueba
 
