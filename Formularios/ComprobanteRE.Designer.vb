@@ -30,9 +30,7 @@ Partial Class ComprobanteRE
         Me.DateTimePicker = New System.Windows.Forms.DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtDomicilio = New System.Windows.Forms.TextBox()
         Me.txtTelefono = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtProducto = New System.Windows.Forms.TextBox()
@@ -76,9 +74,10 @@ Partial Class ComprobanteRE
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(56, 199)
+        Me.txtUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.txtUsuario.Location = New System.Drawing.Point(179, 177)
         Me.txtUsuario.Name = "txtUsuario"
-        Me.txtUsuario.Size = New System.Drawing.Size(158, 20)
+        Me.txtUsuario.Size = New System.Drawing.Size(305, 26)
         Me.txtUsuario.TabIndex = 1
         '
         'DateTimePicker
@@ -94,12 +93,12 @@ Partial Class ComprobanteRE
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(57, 177)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.Label1.Location = New System.Drawing.Point(66, 170)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 20)
+        Me.Label1.Size = New System.Drawing.Size(107, 31)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Cliente"
+        Me.Label1.Text = "Cliente:"
         '
         'Label2
         '
@@ -111,16 +110,6 @@ Partial Class ComprobanteRE
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "N° Comprobante"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(57, 226)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 20)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Domicilio"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -131,29 +120,23 @@ Partial Class ComprobanteRE
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Fecha"
         '
-        'txtDomicilio
-        '
-        Me.txtDomicilio.Location = New System.Drawing.Point(56, 249)
-        Me.txtDomicilio.Name = "txtDomicilio"
-        Me.txtDomicilio.Size = New System.Drawing.Size(158, 20)
-        Me.txtDomicilio.TabIndex = 9
-        '
         'txtTelefono
         '
-        Me.txtTelefono.Location = New System.Drawing.Point(274, 249)
+        Me.txtTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.txtTelefono.Location = New System.Drawing.Point(186, 231)
         Me.txtTelefono.Name = "txtTelefono"
-        Me.txtTelefono.Size = New System.Drawing.Size(158, 20)
+        Me.txtTelefono.Size = New System.Drawing.Size(298, 26)
         Me.txtTelefono.TabIndex = 11
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(274, 226)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.Label5.Location = New System.Drawing.Point(60, 226)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(71, 20)
+        Me.Label5.Size = New System.Drawing.Size(128, 31)
         Me.Label5.TabIndex = 10
-        Me.Label5.Text = "Teléfono"
+        Me.Label5.Text = "Teléfono:"
         '
         'txtProducto
         '
@@ -260,9 +243,7 @@ Partial Class ComprobanteRE
         Me.Controls.Add(Me.txtProducto)
         Me.Controls.Add(Me.txtTelefono)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.txtDomicilio)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker)
@@ -286,9 +267,7 @@ Partial Class ComprobanteRE
     Friend WithEvents DateTimePicker As DateTimePicker
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents txtDomicilio As TextBox
     Friend WithEvents txtTelefono As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtProducto As TextBox

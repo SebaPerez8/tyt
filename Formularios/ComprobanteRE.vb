@@ -63,8 +63,8 @@ Retiro / Entrega"
 
         'Datos de cliente
         e.Graphics.DrawString("Cliente: " & txtUsuario.Text, FUENTE, Brushes.Black, X - 30, Y + 130)
-        e.Graphics.DrawString("Domicilio: " & txtDomicilio.Text, FUENTE, Brushes.Black, X - 30, Y + 160)
-        e.Graphics.DrawString("Tel: " & txtTelefono.Text, FUENTE, Brushes.Black, e.MarginBounds.Right - 200, Y + 160)
+        e.Graphics.DrawString("Tel: " & txtTelefono.Text, FUENTE, Brushes.Black, X - 30, Y + 160)
+
 
         'Producto
         e.Graphics.DrawString("PRODUCTO: " & txtProducto.Text, FUENTE, Brushes.Black, X - 30, Y + 220)
@@ -90,8 +90,8 @@ Retiro / Entrega"
 
         'Datos de cliente
         e.Graphics.DrawString("Cliente: " & txtUsuario.Text, FUENTE, Brushes.Black, X - 30, Y + 680)
-        e.Graphics.DrawString("Domicilio: " & txtDomicilio.Text, FUENTE, Brushes.Black, X - 30, Y + 710)
-        e.Graphics.DrawString("Tel: " & txtTelefono.Text, FUENTE, Brushes.Black, e.MarginBounds.Right - 200, Y + 710)
+        e.Graphics.DrawString("Tel: " & txtTelefono.Text, FUENTE, Brushes.Black, X - 30, Y + 710)
+
 
         'Producto
         e.Graphics.DrawString("PRODUCTO: " & txtProducto.Text, FUENTE, Brushes.Black, X - 30, Y + 770)
